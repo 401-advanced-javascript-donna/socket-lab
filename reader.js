@@ -5,4 +5,7 @@ const fileRead = require('./file-read');
 fileRead(process.argv[2])
   .then(data => {
     socket.emit('file-read', data);
+  })
+  .catch((err) => {
+    socket.emit('file-error', err);
   });
