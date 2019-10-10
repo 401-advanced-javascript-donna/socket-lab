@@ -1,5 +1,5 @@
 {
-  "name": "fsjs-e2e-route-model-quiz",
+  "name": "socket-lab",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -35,12 +35,6 @@
     "nodemon": "^1.19.2",
     "prettier": "^1.18.2",
     "supertest": "^4.0.2"
-  },
-  "jest": {
-    "preset": "@shelf/jest-mongodb",
-    "setupFilesAfterEnv": [
-      "<rootDir>/e2e/setup.js"
-    ]
   },
   "prettier": {
     "singleQuote": true
