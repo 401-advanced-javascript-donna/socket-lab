@@ -8,7 +8,7 @@ io.on('connection', socket => {
     socket.broadcast.emit('capitalize', data);
   });
   socket.on('file-save', () => {
-    console.log('Capitalization has been saved!')
+    console.log('Capitalization has been saved!');
   });
   socket.on('file-error', err => {
     console.log(err);
